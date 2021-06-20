@@ -36,6 +36,9 @@ header img{
 #felipe{
     width: 180px;
 }
+body{
+    height:100vh 
+}
 main{
         max-width: 1041px;
         margin: 50px auto; 

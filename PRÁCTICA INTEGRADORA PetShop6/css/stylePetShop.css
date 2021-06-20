@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif; 
+}
+
+#barrasuperior{
+    background-color:#222222;
+    color:#F3F3F3;
+}
+#barramenu
+{
+    background-color: #F0A83E;
+}
+
+.menu a, i{
+    color: #F3F3F3;
+    text-decoration: none 
+}
+h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    size: 30px;
+    line-height: 35.16px;
+    
+}
+
+.bannercomida{
+    text-align: center;
+    text-decoration: none;
+    background-image: url("../Images/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 550px;
+}
+.bannercomida a{
+    color: #3C2313;
+    text-decoration: none;
+}
+#button{
+    background-color: #F0A83E;
+}
+#productosdestacados li{
+    list-style: none
+}
+#productosdestacados a{
+    color: #666666;
+    text-decoration: none;
+}
+.price{
+    color: #F0A83E;
+}
+.prefooter{
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+.prefooter i{
+    border-radius: 100%;
+    font-size: 45px;
+    background-color: #8A8787;
+    padding: 10px;
+}
+footer{
+    background-color: #222222;
+    color:#FFFFFF ;
+    text-align: center;
+}

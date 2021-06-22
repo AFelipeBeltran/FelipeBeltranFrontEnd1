@@ -5,13 +5,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 .iconosheader i{
     color: white;
-    font-size: 40px;
-    width: 300px;
-        
+    font-size: 35px;
+    width: 200px;
+    text-align: center;
 }
 
 .iconosheader p{

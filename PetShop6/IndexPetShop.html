@@ -11,7 +11,7 @@
 <body>
     <header>
         <section id="barrasuperior">
-            <p>Grandes ofertas en comederos</p>  
+                <div>Grandes ofertas en comederos</div>
                 <ul>
                     <li>Español</li>
                     <li>$ARG</li>
@@ -19,42 +19,51 @@
         </section>
         <section id="barramenu">
             <img src="./Images/Logo.png" alt="Logo Front Cat&Dog">
-            <nav>
                 <ul class="menu" type="none">
                     <li><i class="fas fa-paw"></i><a href="Categorias.html">Categorías </a> </li>
                     <li><i class="fas fa-paw"></i><a href="Pets.html"> Pets </a></li>
                     <li><i class="fas fa-paw"></i><a href="Nosotros.html"> Nosotros</a></li>
                     <li><i class="fas fa-paw"></i><a href="Contáctanos">Contáctanos</a></li> 
                 </ul>
-            </nav>
         </section>
     </header>
-    <section id="Banner">
-        <h3>¡Es un placer tenerte aquí!</h3>
-        <div class="bannercomida">
-            <p><a href="Comedores.html#Descuentos">¡Comederos en descuento!</a></p>
-            <button id="button"><a href="#Comedores.html">COMEDEROS</a></button>
+    <section id="banner">
+        <div>
+            <h3>¡Es un placer tenerte aquí!</h3>
+            <div class="bannercomida">
+                <p><a href="Comedores.html#Descuentos">¡Comederos en descuento!</a></p>
+                <br>
+                <button id="button"><a href="#Comedores.html">COMEDEROS</a></button>
+            </div>
         </div>
         <!-- <img src="./Images/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen Bowl para perros con comida"> -->
             
     </section>
     <section id="productosdestacados">
-        <div align="center"><img src="./Images/patita.PNG" alt="Imagen patita">
+        <div class="pata" align="center"><img src="./Images/patita.PNG" alt="Imagen patita">
             <h1>Productos Destacados</h1>
-            <ul>
-                <li><a href="Comederos.html"> Comederos</a> <a href="Accesorios.html"> - Accesorios</a><a href="comida.html"> - Comida</a></li>
-            </ul>
+            <div class="listapata">
+                <ul>
+                    <li><a href="Comederos.html"> Comederos</a> <a href="Accesorios.html"> - Accesorios</a><a href="comida.html"> - Comida</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <a href="Accesorios.html#Churrasquito"><img src="./Images/churrasquito.png" alt="Churrasquito"></a>
-            <p>Juguete Churrasquito</p>
-            <p class="price">$150</p>
-            <a href="Comedero.html#Comedero1"><img src="./Images/comedero.png" alt="Comedero"></a>
-            <p>Comedero para perro</p>
-            <p class="price">$250</p>
-            <a href="Accesorios.html#Juguete_Hueso"><img src="./Images/Huesito.png" alt="Huesito"></a>
-            <p>Juguete Huesito</p>
-            <p class="price">$650</p>
+        <div class="imagenesdestacadas">
+            <div>
+                <a href="Accesorios.html#Churrasquito"><img src="./Images/churrasquito.png" alt="Churrasquito"></a>
+                <p>Juguete Churrasquito</p>
+                <p class="price">$150</p>
+            </div>
+            <div>
+                <a href="Comedero.html#Comedero1"><img src="./Images/comedero.png" alt="Comedero"></a>
+                <p>Comedero para perro</p>
+                <p class="price">$250</p>
+            </div>
+            <div>
+                <a href="Accesorios.html#Juguete_Hueso"><img src="./Images/Huesito.png" alt="Huesito"></a>
+                <p>Juguete Huesito</p>
+                <p class="price">$650</p>
+            </div>
         </div>
     </section>
     <section>
@@ -73,18 +82,43 @@
     </div>
     <!-- pre footer 3 íconos -->
     <section class="prefooter">
-        <i class="fas fa-map-marker-alt"></i>
-        <h4>Localidad</h4>
-        <p>Calle - provincia</p>
-        <br>
-        <i class="fas fa-phone-alt"></i>
-        <h4>Teléfono</h4>
-        <p>Número de teléfono</p>
-        <br>
-        <i class="fas fa-envelope"></i>
-        <h4>Correo Electrónico</h4>
-        <p>Dirección de correo</p>
-        <br>
+        
+        <div id="iconos">
+            <div>
+                <div>
+                    <i class="fas fa-location-arrow"></i>
+                    <!-- <i class="fas fa-map-marker-alt"></i> -->
+                </div>
+                <div class="infoiconos">
+                    <h4>Localidad</h4>
+                    <p>Calle - provincia</p>
+                    <br>
+                </div>
+            </div>
+            <div id="cajatelefono">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                
+                <div class="infoiconos">
+                    <h4>Teléfono</h4>
+                    <p>Número de teléfono</p>
+                    <br>
+                </div>
+                </div>
+                <div>
+                    <img id="logoabajo" src="./Images/Logoabajo.png" alt="Cat&Dog logo">
+                </div>
+            </div>
+            <div>
+                <div><i class="fas fa-envelope"></i>
+                </div> 
+                <div class="infoiconos">
+                    <h4>Correo Electrónico</h4>
+                    <p>Dirección de correo</p>
+                    <br>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <p>Todos los derechos reservados</p>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #222222;
+    font-size: 16px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content:space-between;  
+    align-items: center;
+    height: 100px;
+    padding : 20px; 
+    
+
+}
+.logo{
+    /* background-image: url(../img/Logo.png); */
+    width: 234px;
+    height: 80px;   
+    display: flex;
+    align-items: center;    
+}   
+header nav ul{
+    display: flex;
+    gap: 13px;  
+    flex-direction: row;  
+    list-style: none;  
+}
+main{
+    background-color: #E5E5E5;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.envio{
+    background-image: url(../img/delivery.jpg);
+    Width:40%;
+    Height:350px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.envio h2{
+    color: red;
+    font-size: 24px;
+    margin: 20px 119px 302px 20px;
+}
+.envio span{
+    color: white;
+    font-size: 24px;
+}
+.podio{
+    background-color: white;
+    width: 40%;
+    height: 350px;
+    
+}
+.lista{
+    color: red;
+    text-align: center;
+}
+.lista h2{
+    color: red;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.cajapodio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.top5{
+    padding-top: 62px;
+    
+        
+}
+li{
+    padding: 4px 4px 4px 4px;
+    
+}
+
+.top5 ol li{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #222222;
+    height:150px;
+    background-color: #222222;
+    font-size: 16px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content:space-between;  
+    align-items: center;
+    flex-flow: wrap;
+    
+}
+.logofooter{
+    width:212px;
+    height:80px;
+    order:1;
+    margin-right: 40px;
+    
+}
+.listafooter{
+    flex-direction: column;
+    margin-left: 40px;
+    list-style: none;
+    
+}

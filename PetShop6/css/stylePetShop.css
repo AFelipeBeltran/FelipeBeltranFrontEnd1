@@ -2,44 +2,95 @@
 
 *{
     font-family:'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
+
 #barrasuperior{
+    display: flex;
     background-color:#222222;
     color:#F3F3F3;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
-#barramenu
-{
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+#barramenu{
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu a, i{
     color: #F3F3F3;
     text-decoration: none 
 }
-h3{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    size: 30px;
-    line-height: 35.16px;
+
+#banner{
+    display: flex;
+    background-image: url("../Images/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 550px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 42px;
+    padding-right: 20px;
     
+}
+
+#banner h3{ 
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width:365px;
+    height:54px;
+    border-radius: 5px;
+    text-align:center;
+    padding-top: 5px;
 }
 
 .bannercomida{
     text-align: center;
     text-decoration: none;
-    background-image: url("../Images/bowl-and-pet-daities-on-green-background\ 1.png");
-    background-size: cover;
-    height: 550px;
-}
+    padding-top: 20px;
+    }
 .bannercomida a{
     color: #3C2313;
     text-decoration: none;
+    
 }
 #button{
     background-color: #F0A83E;
+    padding: 15px 23px;
+ }
+#button a{
+    color: white;
 }
+.listapata{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;  
+}
+.listapata a{
+    padding:20px;
+}
+
+.imagenesdestacadas{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 #productosdestacados li{
     list-style: none
 }
@@ -54,11 +105,39 @@ h3{
     background-color: #3C2313;
     color: #FFFFFF;
 }
+
+#iconos{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+#iconos div{
+    display: flex;
+    padding:5px;
+}
+#cajatelefono{
+    display: flex;
+    justify-content: space-between;
+}
+.infoiconos{
+    display: flex;
+    flex-flow: column;
+    margin-left: 40px;
+}
+#logoabajo{
+    width: 266px;
+    height: 43px;
+    margin-right: 120px;
+}
 .prefooter i{
     border-radius: 100%;
     font-size: 45px;
     background-color: #8A8787;
-    padding: 10px;
+    padding: 30px;
+    
+}
+h4{
+    font-size: 20px;
 }
 footer{
     background-color: #222222;

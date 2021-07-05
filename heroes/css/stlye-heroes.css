@@ -108,5 +108,51 @@ footer{
     background-color: #00669F;
     color: #FFF9F9;
     font-size: 16px;
-    padding: 16px 671px 16px 16px;
+    padding: 16px;
+    width: 100vh;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.div1{
+        display: flex;
+        justify-content: space-evenly;
+        
+}
+
+
+/* footer div:nth-child(1){
+    align-items:flex-end;
+    
+}
+footer div:nth-child(2){
+    align-content: space-around;
+} */
+
+
+
+#github{
+    width: 78px;  
+    height: 21px;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    h2{
+        padding: 10px 300px 10px 10px;
+    }
+    .cajagrande{
+        align-items: center;
+    }
+    footer{
+        padding: 16px 16px 16px 16px;
+        text-align: center;
+        
+    }
 }

@@ -15,6 +15,12 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding: 0px 35px;
+    
+}
+
+#barrasuperior ul li{
+    list-style: none;
 }
 
 ul{
@@ -24,20 +30,22 @@ ul{
 #barramenu{
     background-color: #F0A83E;
     display: flex;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px;
 }
 
 .menu a, i{
     color: #F3F3F3;
-    text-decoration: none 
+    text-decoration: none;
 }
 
 #banner{
     display: flex;
     background-image: url("../Images/bowl-and-pet-daities-on-green-background\ 1.png");
     background-size: cover;
-    height: 550px;
+    height: 100vh;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
@@ -111,6 +119,9 @@ ul{
     padding-top: 20px;
     
 }
+#logophone{
+    display: none;
+}
 #iconos div{
     display: flex;
     padding:5px;
@@ -143,4 +154,61 @@ footer{
     background-color: #222222;
     color:#FFFFFF ;
     text-align: center;
+    
 }
+/* Mobile */
+@media screen and (max-width: 480px){
+    #barrasuperior{
+        width: 90vh;
+    }
+    #barramenu{
+        width: 90vh;
+    }
+    .menu {
+        display: none;
+    }
+    header section:nth-child(2)::after{
+        content: '\f0c9';
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900;
+        font-size: 2rem;
+        color: white;
+        padding-right: 20px;
+    }
+    .imagenesdestacadas{
+        flex-wrap: wrap;
+    }
+
+    .iconos{
+        display: flex;
+
+    }
+    #logoabajo{
+        display: none;
+    }
+    #logophone{
+        display: unset;
+        width: 134px;
+        height: 18px;
+        
+    }
+    .divlogophone{
+        justify-content: center;
+    }
+
+    #cajatelefono{
+        justify-content: center;
+    }
+    .iconosfooterphone{
+        justify-content: center;
+    }
+    #locationphone{
+        padding-right: 160px;
+    }
+   
+
+
+
+
+}
+

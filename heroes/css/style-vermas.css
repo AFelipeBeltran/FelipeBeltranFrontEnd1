@@ -46,6 +46,15 @@ body{
     height:100vh;
 }
 
+.cajagrande{
+    background-image: url("/heroes/img/BG\ haRLEY.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+
+}
+
 .superheroe{
     display: inline-block;
     padding-top: 160px;
@@ -61,11 +70,13 @@ body{
         background-image: url("../img/ImagenfondoBatman.png");
         width: 300px;
         height: 193px;
+        visibility:hidden;
+        
     }
 .cara{
     position: absolute;
     border-radius: 100%;
-    left: 90px;
+    left: 210px;
     top: 120px;  
     width: 120px;
     height: 118px;
@@ -74,16 +85,18 @@ body{
 .corazon{
     position:absolute;
     width: 30px;
-    top: 15px;
-    left: 20px;
+    top: 235px;
+    left: 40px;
+    z-index: 3;
 }
 
 
 .abajo{
     background-color: #F3F3F3;
-    height: 336px;
+    height: 456px;
     position: relative;
-    width: 300px;
+    width: 546px;
+    border-radius: 30px;
 }
 h3{
     position: absolute;
@@ -93,41 +106,46 @@ h3{
 }
 
 #harleyquinn{
-    padding: 74px 35px 227px 55px;
+    margin-left: 90px;
+    color: #2C0187;
+    text-align: center;
 }
 .descripcion{
     position: absolute;
-    font-size: 16px;
+    font-size: 17px;
     color: #333333;
-    padding: 119px 17px 104px 16px;
+    padding: 139px 17px 104px 16px;
     text-align: justify;
 }
+
+#armas{
+    position: absolute;
+    top: 340px;
+    left: 190px;
+    color: #2C0187;
+}
 .ver{
-    background-color: #00669F;
-    color: #F3F3F3;
+    background-color: #2C0187;
     font-size: 15px;
-    height: 49px;
-    width: 128px;
+    height: 79px;
+    width: 546px;
     position: absolute;
     text-align: center;
-    margin-top: 270px;
-    margin-left: 86px;
+    margin-top: 400px;
+    border-radius: 0 0 20px 20px;
+    
     
 }
 .ver a{
     font-size: 15px;
-    color: white;
-    text-decoration: none;
-    margin: auto;
-}
-
-.ver button{
-    background-color: #00669F;
+    padding-top: 17px;
     color: #F3F3F3;
+    text-decoration: none;
     position: absolute;
-    right: 34px;
+    right: 224px;
     top:14px;
-    border:transparent;
+
+    
 }
 
 .botonañadir{

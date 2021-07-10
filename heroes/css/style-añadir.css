@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px 903px 10px 10px;
+    height: 38px;
+    cursor:url("../img/batman-logo.png"),pointer;
+
+    
+}
+
+#tituloheroes{
+    background-color:  #00669F;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    cursor:url("../img/batman-logo.png"),pointer;
+    
+}
+#tituloheroes h1{
+    padding: 15px 15px;
+    color: white;
+    
+}
+header div {
+    background-color: #001D2D;
+    width: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main{
+        color: white;
+        background-color: #00669F;
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        min-height: 75vh;
+        text-align: center;
+        border-radius: 50px;
+        cursor:url("../img/batman-logo.png"),pointer;
+    }
+main h1{
+    font-size: 4rem;
+}
+main p{
+    font-size: 1.5rem;
+}
+.cajasform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+    font-family: 'Roboto', sans-serif
+}
+.cajasform>section{
+    width: 40%;
+    height: 100px;
+    text-align: left;
+    margin: 10px;
+}
+.cajasform textarea{
+        width: 40%;
+        height: 300px;
+        text-align: left;
+        margin: 10px;
+        border-radius: 20px;
+        font-size: 150%;
+        cursor:url("../img/batman-logo.png"),pointer;
+}
+.cajasform section input[type=text],input[type=date]
+{
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    height: 60px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.cajasform section input[type=file]
+{
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    height: 60px;
+    padding: 5px;
+    background-color: grey;
+}
+
+.cajasform section select{
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 120%;
+    height: 60px;
+    border: 2px solid black;
+    padding: 6px;
+    margin: 10px;
+}
+.cajasform section div{
+    text-align: left;
+    display: block;
+    padding: 1.4px;   
+}
+.poderes{
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.poderes input{
+    width: 20px;
+    height: 20px;
+}
+.poderes label:nth-child(1){
+    font-size: 1.5rem;
+}
+.poderes div{
+    margin: 2px;
+}
+hr {
+    color: white;
+    margin: 10px;
+}
+
+
+#añadir{
+    padding: 30px 100px;
+    color: black;
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    width: 40%;
+}
+#añadir:hover{
+    background-color:#001D2D;
+    color: white;
+}
+
+
+/* footer footer footer footer footer */
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;
+    width: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+    
+}
+#github{
+    width: 60px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+/* footer div:nth-child(1){
+    align-items:flex-end;
+    
+}
+footer div:nth-child(2){
+    align-content: space-around;
+} */
+
+
+
+#github{
+    width: 78px;  
+    height: 21px;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    h2{
+        padding: 10px 300px 10px 10px;
+    }
+    .cajagrande{
+        align-items: center;
+    }
+    footer{
+        padding: 16px 16px 16px 16px;
+        text-align: center;
+        
+    }
+}

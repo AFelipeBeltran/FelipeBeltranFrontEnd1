@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style-añadir.css">
+</head>
+<body>
+    <body>
+        <h2>Descuentos 20%</h2>
+        <header id="tituloheroes">
+            <h1> <img src="./img/logo-tienda .png" alt="Logo Tienda"> Tienda Héroes</h1>
+            <div>
+                <ul type="none">
+                    <li><a href="./index.html">INICIO</a>
+                    </li>
+                    <li><a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li><a href="./registro.html">Registrarme</a>
+                    </li>
+                    <li><a href="./login.html">Ingresar</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+                <h1>Añadí tu super!</h1>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <form action="./index.html" method="GET">
+                    
+                    <div class="cajasform">
+                        <section>
+                            <label for="Nombre">Nombre</label><br>
+                            <input id="Nombre" type="text" placeholder="Nombre y Apellido">
+                        </section>
+                        <section>
+                            <label for="date">Fecha</label><br>
+                            <input type="date" id="date" list="days">
+                        </section>
+                        <textarea name="Descripcion" id="Descripcion" cols="50" rows="10" placeholder="Descripción">
+                            Descripción
+                        </textarea>
+                        <section>
+                        <label for="Especie">Especie</label><br>
+                            <select name="Especie" id="Especie">
+                                <option value="" selected disabled >Unknown</option>
+                                <option value="1">Mutante</option>
+                                <option value="2">Humano</option>
+                                <option value="3">Beyonder</option>
+                                <option value="4">Celestial</option>
+                                <option value="5">Elder</option>
+                            </select>
+                        </section>
+                        <section>
+                            <label for="Foto">Agregar Foto</label>
+                            <input id="foto" type="file">   
+                        </section>
+                        <!-- PODERES CHECKBOX-->
+                        <section class="poderes">
+                            <label for="Poderes">Poderes</label>
+                            <div>
+                                <input type="checkbox" id="Poderes">
+                                <label for="Poderes">Volar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Poderes">
+                                <label for="Poderes">SuperInteligencia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Poderes">
+                                <label for="Poderes">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Poderes">
+                                <label for="Poderes">Billetera gorda</label>
+                            </div>
+                        </section>
+                        <br>
+                        <hr>
+                        <!-- TIPO DE PERSONAJE -->
+                        <section class="poderes">
+                                <label for="Personaje">Tipo de Personaje</label>
+                            <div>
+                                <input type="radio" id="Personaje1" name="personajes" value="1">
+                                <label for="Personaje1">Héroe / Heroina</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="Personaje2" name="personajes" value="2">
+                                <label for="Personaje2">Villano / Villana</label>
+                            </div>
+                        </section>
+                    </div>
+                </form>
+                <div id="botonañadir">
+                    <button id="añadir" type="submit">Añadir</button>
+                </div>
+            
+        </main>
+    </body>
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div> 
+                <p>Todos los derechos reservados a FRONT END 1 </p>
+            </div>
+            <div>
+                <img id="github" src="./img/GitHub.png" alt="GitHub">
+            </div>
+        </div>
+        </footer>
+    </html>
+</body>
+</html>

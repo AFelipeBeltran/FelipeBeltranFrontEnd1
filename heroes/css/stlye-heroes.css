@@ -46,6 +46,9 @@ body{
     height:100vh;
 }
 
+main{
+    cursor: url("/heroes/img/superheroe.png"),pointer;
+}
 .superheroe{
     display: inline-block;
     padding-top: 160px;
@@ -112,6 +115,7 @@ h3{
     text-align: center;
     margin-top: 270px;
     margin-left: 86px;
+    cursor: pointer;
     
 }
 .ver a{
@@ -119,6 +123,7 @@ h3{
     color: white;
     text-decoration: none;
     margin: auto;
+    cursor: pointer;
 }
 
 .ver button{
@@ -128,6 +133,7 @@ h3{
     right: 34px;
     top:14px;
     border:transparent;
+    cursor: pointer;
 }
 
 .botonañadir{

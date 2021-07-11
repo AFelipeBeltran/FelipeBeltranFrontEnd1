@@ -109,6 +109,98 @@ ul{
 .price{
     color: #F0A83E;
 }
+/* FORMULARIO */
+.formulario{
+    height:40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#titulocontact{
+    text-align: center;
+}
+#titulocontact h1{
+    color:#3C2313;
+    font-size: 25px;
+}
+.formulario form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formulario input{
+    height:40px;
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    
+}
+/* subscripcion */
+.suscripcion{
+    background-color: #F0A83E;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    
+}
+
+.suscripcion div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#imgsobre {
+    width: 40px;
+}
+.suscripcion input{
+    width:371px;
+    height:40px;
+    border-radius: 15px;
+    border: transparent;
+    padding-left:5px;
+}
+.suscripcion button{
+    width:110px;
+    height:40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+#botonesdiv{
+    display: flex;
+    flex-direction: row;
+}
+#botonesdiv button{
+    width: 28%;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 180%;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+#resetear{
+    background-color: grey;
+    color:white;
+}
+#botonesdiv button:nth-child(2){
+    background-color:#F0A83E;
+    color:white;
+}
+
+
+
+
 .prefooter{
     background-color: #3C2313;
     color: #FFFFFF;

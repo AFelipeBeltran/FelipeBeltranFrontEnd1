@@ -142,6 +142,9 @@ h3{
     bottom: 20%;
     z-index: 3;
 } 
+.botonañadir:hover{
+    animation: rotate-center .6s ease-in-out;
+}
 
 /* footer footer footer footer footer */
 footer{
@@ -196,5 +199,18 @@ footer div:nth-child(2){
         padding: 16px 16px 16px 16px;
         text-align: center;
         
+    }
+}
+
+/* ANIMACIONES */
+
+@keyframes rotate-center{
+    0%{
+    transform: rotate(o);
+    background: #00669f;
+    }
+    100%{
+    transform: rotate(360deg);
+    background: #1cd1b0; 
     }
 }

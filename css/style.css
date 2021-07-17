@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
 
 .iconosheader{
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 .iconosheader i{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     width: 200px;
     text-align: center;
     cursor: pointer;
@@ -825,3 +825,11 @@ orange circle
         opacity: 1;
     }
 }
+/* footer */
+/* footer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    width: 100%;
+} */

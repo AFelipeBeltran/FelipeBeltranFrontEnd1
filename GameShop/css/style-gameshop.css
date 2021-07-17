@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* HEADER */
+header{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    cursor: url("/GameShop/img/gamepad-de-ps4.png"), pointer;
+}
+header div:nth-child(1){
+    width: 60%;
+    padding-left: 20px;
+}
+#divmenu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+}
+#divmenu a{
+    text-decoration: none;
+    color: white;
+}
+/* ícono carro compras */
+#iconbuy{
+    color: #D01418;
+    font-size: 1.5rem;
+    padding-right: 120px;
+}
+/* MAIN */
+main{
+    cursor: url("/GameShop/img/gamepad-de-ps4.png"), pointer;
+}
+/* BANNER */
+#banner{
+    background-image: url("/GameShop/img/img\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+#banner button{
+    width: 220px;
+    height: 61px;
+    background-color: #D01418;
+    color: white;
+    z-index: 1;
+    font-size: 25px;
+    position: absolute;
+    right: 45%;
+    margin-top: 20px;
+}
+#banner button:hover{
+    background-color: #4E0B40;
+    animation: aaanimation  2s ease-in-out;
+}
+#banner h1 span{
+    color: red;
+    font-size: 40px;
+}
+#banner h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30vh;
+}
+/* título productos destacados h2 */
+h2{background-color: grey;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+/* PRODUCTOS DESTACADOS */
+#productosdestacados{
+    background-color: grey;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#productosdestacados div{
+    background-color: white;
+    width: 265px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+#productosdestacados div img{
+    height: 163px;
+    width:129px;
+    padding-top: 30px;
+    margin-left: 68px;
+}
+#productosdestacados div hr{
+    color: grey;
+    width: 100%;
+    margin-top: 40px;
+}
+p {
+    font-weight: bold;
+    color: black;
+    line-height: 15,23px;
+    padding-left: 20px;
+}
+#productosdestacados div p:nth-child(5){
+    color: #619D00;
+    font-size:10px;
+    
+}   
+/* PRODUCTOS ESTRELLA */
+#productosestrella{
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#productosestrella div:nth-child(1){
+    background-image: url("/GameShop/img/banner\ 1.png");
+    background-repeat: no-repeat;
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+    position: relative;
+}
+#productosestrella div:nth-child(2){
+    background-image: url("/GameShop/img/banner\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+    position: relative;
+}
+#productosestrella h3{
+    color: white;
+    position: absolute;
+    left: 180px;
+    top:53px;
+    font-size: 25px;
+}
+/* PREFOOTER */
+#prefooter{
+    background-color: #222222;
+    height: 216px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#prefooter h3{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#redes a{
+    padding: 15px;
+}
+/* FOOTER */
+footer{
+    background-color: #C4C4C4;
+    text-align: center;
+    height: 25px;
+}
+footer p{
+    padding-top: 7px;
+    color: black;
+    font-size: 10px;
+}
+/* ANIMACIONES */
+@keyframes aaanimation {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: #D01418;
+    }
+    
+}

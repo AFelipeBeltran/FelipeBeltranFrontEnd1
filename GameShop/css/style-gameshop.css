@@ -193,3 +193,62 @@ footer p{
     }
     
 }
+/* RESPONSIVE 411 px SEGÚN LO PEDÍA EL FIGMA, entonces mejor lo puse hasta 610 para que se vea desde 411 hasta 610*/
+
+@media (max-width: 610px){
+/* ocultar el divmenu */
+#divmenu{
+    visibility: hidden;
+}
+#iconbuy{
+    display: none;
+}
+
+/* HAMBURGUESITA ICONO BAR */
+#divmenu::before{
+    content: '\f0c9';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 80%;
+    padding-right: 10%;
+    visibility: visible;
+}
+/* BANNER  */
+#banner{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#banner button{
+    left: 20%;
+}
+/* PRODUCTOS DESTACADOS */
+#productosdestacados{
+    flex-direction: column;
+    height: max-content;
+}
+main h2{
+    padding-bottom: 20px;
+}
+/* PRODUCTOS ESTRELLA */
+#productosestrella{
+    flex-direction: column;
+    height: max-content;
+    padding-left: 4vh;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+/* PREFOOTER */
+#prefooter{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+}
